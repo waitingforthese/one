@@ -303,7 +303,7 @@ Project Report, CMA Data,
     <string name="farmer_policy">सर्व शेतकरी योजना</string>
     <string name="gst_registration">जी एस टी रजिस्ट्रेशन</string>
     <string name="all_other_docs">इतर सर्व दाखले</string>
-    <string name="txt_maha_e_suvidha_login_screen"><font color="#1FFFAD">लाईफ</font> <font color="#FF1F48">अलार्म</font></string>
+    <string name="txt_maha_e_suvidha_login_screen"><font color="#61BD73">लाईफ</font> <font color="#FF1F48">अलार्म</font></string>
     <string name="demat_account">इतर सेवा / सुविधा</string>
     <string name="txt_referral_program">रेफरल प्रोग्रॅम</string>
     <string name="txt_govt_schemes">नवीन शासकीय योजना</string>
