@@ -61,8 +61,8 @@ class MenuListAdapter(var context: Context?, var itemList: List<String?>? = null
         when (title) {
             "My Accountant" -> {
                 holder.binding.bannerIconBg.setBackgroundResource(R.drawable.bg_banner_logo_blue)
-                holder.binding.ivBanner.setImageResource(R.drawable.ic_accounting)
-                holder.binding.tvBannerTitle.text = "My Accountant"
+                holder.binding.ivBanner.setImageResource(R.drawable.ic_lifealarm)
+                holder.binding.tvBannerTitle.text = "लाईफ अलार्म"
                 holder.binding.tvBannerSubtitle.text = "पंचांग, चंद्रकुंडली आणि नक्षत्र मार्गदर्शन — दैनिक अलार्मसह"
             }
         }
