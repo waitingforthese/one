@@ -81,11 +81,11 @@ class LoginActivity : BaseActivity() {
             if (!TextUtils.isEmpty(s)) app?.preferences?.token = s
             Log.e("Token", s)
         }
-        val spanText = SpannableString("9552789899 / 02487 231111")
+        val spanText = SpannableString("9921038999 / 02487 231111")
 
         spanText.setSpan(object : ClickableSpan() {
             override fun onClick(view: View) {
-                callPhone("+91 9552789899")
+                callPhone("+91 9921038999")
             }
         }, 0, 10, 0)
         spanText.setSpan(ForegroundColorSpan(Color.BLUE), 0, 10, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
