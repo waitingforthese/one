@@ -406,7 +406,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             menuList.add("नवनवीन माहिती")
         } else {
             // Regular user menu.
-            menuList.add("My Accountant")
+            menuList.add("LifeAlarm")
             menuList.add("नवनवीन माहिती")
             menuList.add("येथून फी भरावी")
             menuList.add("नियम व अटी")
