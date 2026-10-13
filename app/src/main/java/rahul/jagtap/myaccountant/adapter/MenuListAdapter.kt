@@ -63,7 +63,7 @@ class MenuListAdapter(var context: Context?, var itemList: List<String?>? = null
                 holder.binding.bannerIconBg.setBackgroundResource(R.drawable.bg_banner_logo_blue)
                 holder.binding.ivBanner.setImageResource(R.drawable.ic_accounting)
                 holder.binding.tvBannerTitle.text = "My Accountant"
-                holder.binding.tvBannerSubtitle.text = "बिलाचे फोटो पाठवा - आम्ही अकाउंटिंग करू - येथे रिपोर्ट दिसतील"
+                holder.binding.tvBannerSubtitle.text = "पंचांग, चंद्रकुंडली आणि नक्षत्र मार्गदर्शन — दैनिक अलार्मसह"
             }
         }
     }
