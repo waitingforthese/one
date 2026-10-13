@@ -238,7 +238,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:lineSpacingMultiplier="1.2"
-                android:text="ऑफिसचा पत्ता\nJagtap Patil e Suvidha Kendra and Consultancy, Back Office - Krishi Seva Services, IOCL, Kashti, Nagar Baramati Road, Shrigonda Ahmednagar, Maharashtra 414701"
+                android:text="ऑफिसचा पत्ता\nJagtap Patil Maha e Suvidha, Back Office - Krishi Seva Services, IOCL, Kashti, Nagar Baramati Road, Shrigonda Ahmednagar, Maharashtra 414701"
                 android:textColor="@color/font_black_3"
                 android:textSize="12sp" />
 
