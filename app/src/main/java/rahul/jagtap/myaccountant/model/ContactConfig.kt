@@ -20,9 +20,9 @@ data class ContactConfig(
     @SerializedName("backOfficeLabel") @Expose var backOfficeLabel: String? = "Back Office",
     @SerializedName("backOfficeAddress") @Expose var backOfficeAddress: String? = "Office No-01 Nagawade Estate, IOCL Pump, Kashti 414701",
 
-    @SerializedName("phone1") @Expose var phone1: String? = "+91 9552789899",
+    @SerializedName("phone1") @Expose var phone1: String? = "+91 9921038999",
     @SerializedName("phone2") @Expose var phone2: String? = "02487 231111",
-    @SerializedName("whatsappNumber") @Expose var whatsappNumber: String? = "919552789899",
+    @SerializedName("whatsappNumber") @Expose var whatsappNumber: String? = "919921038999",
     @SerializedName("whatsappLabel") @Expose var whatsappLabel: String? = "येथे क्लिक करा - कस्टमर केअरशी बोला",
 
     @SerializedName("email") @Expose var email: String? = "jpdmas@gmail.com",
@@ -43,7 +43,7 @@ data class ContactConfig(
         "We're Here to Help!", "Send us the details and we will be right there at your service.",
         "Marketing Team", "17/8 Gauri Shankar Society, Dhankwadi, Pune - 411043",
         "Back Office", "Office No-01 Nagawade Estate, IOCL Pump, Kashti 414701",
-        "+91 9552789899", "02487 231111", "919552789899", "येथे क्लिक करा - कस्टमर केअरशी बोला",
+        "+91 9921038999", "02487 231111", "919921038999", "येथे क्लिक करा - कस्टमर केअरशी बोला",
         "jpdmas@gmail.com", "",
         "https://youtube.com/@maha_e_suvidha?si=0gH0fRjGTQnj_diW",
         "https://www.instagram.com/jagtap.patil.rahul/?hl=en",
