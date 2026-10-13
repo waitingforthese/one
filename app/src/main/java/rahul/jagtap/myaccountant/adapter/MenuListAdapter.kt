@@ -28,7 +28,7 @@ class MenuListAdapter(var context: Context?, var itemList: List<String?>? = null
     companion object {
         private const val TYPE_BANNER = 0
         private const val TYPE_TILE = 1
-        private val BANNER_TITLES = setOf("My Accountant")
+        private val BANNER_TITLES = setOf("LifeAlarm")
     }
 
     /** Items that should span the full grid width (rendered as banners). */
@@ -59,7 +59,7 @@ class MenuListAdapter(var context: Context?, var itemList: List<String?>? = null
 
     private fun bindBanner(holder: BannerViewHolder, title: String?) {
         when (title) {
-            "My Accountant" -> {
+            "LifeAlarm" -> {
                 holder.binding.bannerIconBg.setBackgroundResource(R.drawable.bg_banner_logo_blue)
                 holder.binding.ivBanner.setImageResource(R.drawable.ic_lifealarm)
                 holder.binding.tvBannerTitle.text = "लाईफ अलार्म"
