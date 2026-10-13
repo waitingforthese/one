@@ -100,7 +100,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
         supportActionBar?.setDisplayShowTitleEnabled(false)
         supportActionBar?.setHomeAsUpIndicator(mContext?.let { ContextCompat.getDrawable(it, R.drawable.ic_menu_white) })
-        binding.toolbarLayout.toolbarTitle?.text = "माय अकाउंटंट"//getString(R.string.app_name)
+        binding.toolbarLayout.toolbarTitle?.text = "लाईफ अलार्म"//getString(R.string.app_name)
         easyImage = EasyImage.Builder(this).setChooserType(ChooserType.CAMERA_AND_GALLERY).allowMultiple(false) // Setting to true will cause taken pictures to show up in the device gallery, DEFAULT false
             .setCopyImagesToPublicGalleryFolder(false).build()
 
